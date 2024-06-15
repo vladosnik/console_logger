@@ -13,7 +13,7 @@ the main idea is to watch logs from any text file in real time!
 5) watch logs of any programs in real time with console
 
 
-# Example of text file that contains files_list parsed by console_logger
+# Example of text file that contains files list parsed by console_logger
 
 just write paths to text files on each new line 
 
