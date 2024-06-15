@@ -1,7 +1,7 @@
 console_logger is cool little program! 
 the main idea is to watch logs from any text file in real time! 
 
-Example usage:
+# Example usage:
 1) download or compile from source console_logger.exe
 
 2) add PATH VARIABLE to folder that contains console_logger.exe
@@ -13,7 +13,7 @@ Example usage:
 5) watch logs of any programs in real time with console
 
 
-Example of text file that contains files_list parsed by console_logger
+# Example of text file that contains files_list parsed by console_logger
 
 just write paths to text files on each new line 
 
