@@ -12,6 +12,11 @@ Example usage:
 
 5) watch logs of any programs in real time with console
 
+
+Example of text file that contains files_list parsed by console_logger
+
+just write paths to text files on each new line 
+
 files_list.txt example:
 ```
 D:\Vlados\Projects\web\vsystem\domains\store\logs\store.access.log
