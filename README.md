@@ -6,7 +6,7 @@ compiled on Windows 11 with visual studio
 1) download console_logger.exe
 2) create .bat file in same folder with console_logger.exe, that will run "console_logger.exe <path/to/files_list.txt>" as on the example
 
-#example contents of "run console_logger.bat"
+# example contents of "run console_logger.bat"
 ```
 @echo off
 console_logger.exe D:\custom_programs\console_logger\files_list.txt
@@ -27,6 +27,12 @@ C:\Program Files\FileZilla Server\Logs\filezilla-server.5.log
 ```
 just write paths to text files on each new line 
 
+# What this tool does? 
+It's basicly looking for each file and listens for new changes!
+
+# If you want to help...
+Open for any suggestions or improvements of code, use issues tab!
+
 Enjoy!
 
-Open for any suggestions or improvements, use issues tab!
+
