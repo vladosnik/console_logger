@@ -31,7 +31,7 @@ just write paths to text files on each new line
 It's basicly looking for each file and listens for new changes!
 
 # If you want to help...
-Open for any suggestions or improvements of code, use issues tab!
+Open for any suggestions or improvements!
 
 Enjoy!
 
