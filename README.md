@@ -1,21 +1,19 @@
-console_logger is cool little program! 
-the main idea is to watch logs from any text file in real time! 
+console_logger.exe is command line tool, to listen changes on text files and log new contents.
+
+compiled on Windows 11 with visual studio
 
 # Example usage:
-1) download or compile from source console_logger.exe
+1) download console_logger.exe
+2) create .bat file in same folder with console_logger.exe, that will run "console_logger.exe <path/to/files_list.txt>" as on the example
 
-2) add PATH VARIABLE to folder that contains console_logger.exe
-
-3) run cmd.exe with admin rights
-
-4) run command > console_logger D:\your\path\to\files_list.txt
-
-5) watch logs of any programs in real time with console
-
+#example contents of "run console_logger.bat"
+```
+@echo off
+console_logger.exe D:\custom_programs\console_logger\files_list.txt
+```
+3) create shortcut to this .bat file and run it as administrator
 
 # Example of text file that contains files list parsed by console_logger
-
-just write paths to text files on each new line 
 
 files_list.txt example:
 ```
@@ -27,4 +25,8 @@ C:\Program Files\FileZilla Server\Logs\filezilla-server.3.log
 C:\Program Files\FileZilla Server\Logs\filezilla-server.4.log
 C:\Program Files\FileZilla Server\Logs\filezilla-server.5.log
 ```
+just write paths to text files on each new line 
 
+Enjoy!
+
+Open for any suggestions or improvements, use issues tab!
