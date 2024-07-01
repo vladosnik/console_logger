@@ -1,4 +1,4 @@
-console_logger.exe is command line tool, to listen changes on text files and log new contents.
+console_logger.exe is command line tool, to listen changes on text files and log new contents to console.
 
 compiled on Windows 11 with visual studio
 
